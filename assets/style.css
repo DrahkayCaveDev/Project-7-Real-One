@@ -1,0 +1,279 @@
+body{
+	background: radial-gradient(hsl(283, 54%, 8%), hsl(217, 0%, 0%)) fixed;
+}
+
+p{
+	color:white;
+}
+
+.absolute{
+	position: absolute;
+	left: 15%;
+	z-index: -1;
+}
+
+div{
+    border: 1px solid white;
+	margin-top: 5%;
+	margin-bottom: 5%;
+    margin-left: 25%;
+	margin-right: 25%;
+    background: radial-gradient(hsl(217, 0%, 0%), hsl(200, 54%, 8%)) fixed;
+	border-radius: 0px 0px 55px 0px;
+}
+
+form {
+    border: 1px solid white;
+	margin-top: 5%;
+	margin-bottom: 5%;
+    margin-left: 30%;
+	margin-right: 30%;
+    background: radial-gradient(hsl(217, 0%, 0%), hsl(200, 54%, 8%)) fixed;
+	border-radius: 0px 0px 55px 0px;
+}
+
+p.center{
+	text-align:center;
+}
+
+input.center{
+    margin-left: 37%;
+	margin-right: 25%;
+}
+
+textarea.center{
+    margin-left: 20%;
+	margin-right: 25%;
+}
+
+nav{
+	text-align: center;
+}
+
+p#top{
+	color:transparent;
+	top:25%;
+}
+
+.navigation{
+	text-align:center;
+	font-size: 30px;
+	border: solid white;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.navigation:visited{
+	background: -webkit-linear-gradient(left top, hsl(340, 53%, 62%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.navigation:link{
+	background: -webkit-linear-gradient(left top, hsl(340, 53%, 62%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.navigation:hover{
+	background: -webkit-linear-gradient(left top, hsl(283, 94%, 54%), hsl(217, 94%, 23%));
+	color:transparent;
+	-webkit-background-clip: text;
+	border: solid hsl(217, 30%, 44%);
+}
+@media only screen and (min-width: 1200px) {
+	li.sticky{
+		margin: 1%;
+		position: sticky;
+		float:left;
+		background:radial-gradient(hsl(217, 0%, 0%), hsl(200, 54%, 8%)) fixed;
+	}
+	
+	ul.sticky{
+		position:sticky;
+		top: 5%;
+		background:radial-gradient(hsl(217, 0%, 0%), hsl(200, 54%, 8%)) fixed;
+		margin-left:28%;
+		margin-right:28%;
+	}
+}
+	
+ul.sticky{
+	list-style-type:none;
+}
+
+
+ul.side{
+	position:sticky;
+	top: 40%;
+    border: 1px solid white;
+    background: radial-gradient(hsl(200, 54%, 8%), hsl(217, 0%, 0%));
+	border-radius: 0px 0px 55px 0px;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 7em;
+	z-index: -1;
+}
+
+
+
+
+.anchor:link{
+	text-align:center;
+	font-size: 20px;
+	padding-left: 1%;
+	padding-right: 1%;
+	color:white;
+}
+
+.anchor:visited{
+	text-align:center;
+	font-size: 20px;
+	padding-left: 1%;
+	padding-right: 1%;
+	color:white;
+}
+
+.anchor:hover{
+	text-align:center;
+	font-size: 20px;
+	padding-left: 1%;
+	padding-right: 1%;
+	color:white;
+	background: -webkit-linear-gradient(left top, hsl(50, 78%, 58%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+@media only screen and (max-width: 1199px) {
+	li.sticky{
+		margin: 1%;
+		position: sticky;
+		background:radial-gradient(hsl(217, 0%, 0%), hsl(200, 54%, 8%)) fixed;
+		left:1%;
+		width: 5.7em;
+	}
+	ul.sticky{
+		position:sticky;
+		top: 5%;
+	}
+}
+}
+
+
+.banner{
+    display: block;
+	margin: auto;
+	
+}
+
+.heading{
+	color: white;
+	text-align:center;
+}
+
+.big{
+	font-size: 30px;
+}
+
+.small{
+	font-size: 20px;
+}
+
+.fire{
+	background: -webkit-linear-gradient(left top, hsl(27, 78%, 58%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.water{
+	background: -webkit-linear-gradient(left top, hsl(185, 78%, 58%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.earth{
+	background: -webkit-linear-gradient(left top, hsl(19, 14%, 46%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.air{
+	background: -webkit-linear-gradient(left top, hsl(0, 0%, 43%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.electric{
+	background: -webkit-linear-gradient(left top, hsl(62, 78%, 58%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.light{
+	background: -webkit-linear-gradient(left top, hsl(53, 23%, 66%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.dark{
+	background: -webkit-linear-gradient(left top, hsl(57, 0%, 45%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.distortion{
+	background: -webkit-linear-gradient(left top, hsl(277, 24%, 58%), hsl(114, 52%, 79%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.mind{
+	background: -webkit-linear-gradient(left top, hsl(277, 54%, 38%), hsl(114, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.necromancy{
+	background: -webkit-linear-gradient(left top, hsl(0, 0%, 73%), hsl(27, 0%, 100%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.shapeshifter{
+	background: -webkit-linear-gradient(left top, hsl(59, 53%, 81%),hsl(296, 53%, 81%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.summoner{
+	background: -webkit-linear-gradient(left top, hsl(136, 41%, 56%),hsl(296, 53%, 81%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.bestia{
+	background: -webkit-linear-gradient(left top, hsl(19, 14%, 46%),hsl(51, 100%, 50%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.triticum{
+	background: -webkit-linear-gradient(left top, hsl(113, 36%, 58%),hsl(51, 100%, 50%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.odium{
+	background: -webkit-linear-gradient(left top, hsl(0, 67%, 73%),hsl(111, 78%, 63%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
+
+.human{
+	background: -webkit-linear-gradient(left top, hsl(32, 100%, 87%),hsl(51, 100%, 50%));
+	color:transparent;
+	-webkit-background-clip: text;
+}
